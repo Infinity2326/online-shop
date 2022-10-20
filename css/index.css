@@ -23,7 +23,10 @@ input {
     text-shadow: none;
     color: black;
     position: absolute;
-
+ 
+}
+.logo{
+    padding-right: 25px;
 }
 .logo-image{
     max-width: 100%;
@@ -34,7 +37,7 @@ input {
     width: 200px;
 }
 .main {
-
+ 
 }
 .nav-elements-list{
     background-color: black;
@@ -58,6 +61,9 @@ input {
     padding-left: 15px;
     text-decoration: none;
 }
+.search{
+    padding-top: 30px;
+}
 .search-bar{
     display: flex;
     flex-direction: row;
@@ -65,8 +71,40 @@ input {
     text-align: center;
 }
 .cart{
-
+    padding-left: 35%;
+    padding-top: 2%;
 }
 .user{
-
+    padding-left: 5%;
+    padding-top: 2%;
+} 
+ 
+.default-link{
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 32px;
+    text-decoration: none;   
+}
+.login-block{
+ 
+}
+.login{
+    margin-top: 5%;
+    margin-left: 30%;
+}
+.password{
+    margin-top: 30px;
+    margin-left: 30%;
+}
+.submit{
+    margin-top: 30px;
+    margin-left: 30%;
+}
+.confirm{
+    padding-top: 20px;
+    cursor: pointer;
+}
+#to-home{
+    color: black;
 }

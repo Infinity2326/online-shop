@@ -18,23 +18,23 @@
                     <li class="nav-element"><a class="nav-link" href="">О нас</a></li>
                 </ul>
             </nav>
-            <div class="search-bar">
-                <div class="logo">
-                    <a href=""><img class="logo-image" src="../images/Walter_White.jpg"></a> 
-                </div>
-                <form>
-                    <div class="search">
-                        <input placeholder="Поиск товара">
-                    </div>
-                </form>
-                <div class="cart">
-                    <a class="default-link" href="">Корзина</a>
-                </div>
-                <div class="user">
-                    <a class="default-link" href="../html/login.html">Вход</a>
-                </div>
-            </div>
         </header>
+        <div class="login-block">
+            <form method="POST">
+                <div class="login">
+                    Login
+                    <input id="login" name="login" type="text" required>
+                </div>
+                <div class="password">
+                    Password
+                    <input id="password" name="password" type="password" required>
+                </div>
+                <div class="submit">
+                    <input class="confirm" type="submit" value="Login">
+                </div>
+            </form>
+        </div>
+        <a id="to-home" class="nav-link" href="../html/index.html">Домой</a></li>
     </div>
 </body>
 </html>
