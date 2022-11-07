@@ -11,29 +11,45 @@
 <body>
     <div class="main">
         <header>
-            <nav class="nav-elements-list">
-                <ul>
-                    <li class="nav-element"><a class="nav-link" href="">Каталог</a></li>
-                    <li class="nav-element"><a class="nav-link" href="">Как заказать</a></li>
-                    <li class="nav-element"><a class="nav-link" href="">Гарантии</a></li>
-                    <li class="nav-element"><a class="nav-link" href="">О нас</a></li>
-                </ul>
-            </nav>
-            <div class="search-bar">
+            <div class="nav-elements-list">
+                    <div class="city"><a class="default-link" href="" style="color:white">Город</a></div>
+                    <div class="order"><a class="default-link" href="" style="color:white">Как заказать</a></div>
+                    <div class="guarantee"><a class="default-link" href="" style="color:white">Гарантии</a></div>
+                    <div class="about"><a class="default-link" href="" style="color:white">О нас</a></div>
+            </div>
+            <div class="search-elements">
                 <div class="logo">
                     <a href=""><img class="logo-image" src="{%static 'img/Walter_White.jpg'%}"></a> 
                 </div>
-                <form>
-                    <div class="search">
-                        <input placeholder="Поиск товара">
-                    </div>
-                </form>
+                <div class="catalog">
+                    <nav class="dws-menu">
+                        <ul>
+                          <li><a href="#"><i class="fa fa-cogs"></i>Каталог</a>
+                            <ul>
+                              <li><a href="#">Мыши</a></li>
+                              <li><a href="#">Клавиатуры</a></li>
+                              <li><a href="#">Наушники</a></li>
+                              <li><a href="#">Микрофоны</a></li>
+                            </ul>
+                          </li>
+                      </nav>
+                </div>
+                <div class="search">
+                     <input placeholder="Поиск товара">
+                </div>
                 <div class="cart">
-                    <a class="default-link" href="">Корзина</a>
+                    <div class=""><a class="default-link" href="" style="color:black"><img class="icon" src="{%static 'img/cart-svgrepo-com.svg'%}"></a></div>
+                    <div class=""><a class="default-link" href="" style="color:black">Корзина</a></div>
                 </div>
                 <div class="user">
-                    <a class="default-link" href="/login.html">Вход</a>
+                    <div class=""><a class="default-link" href="/login"><img class="icon" src="{%static 'img/user-svgrepo-com.svg'%}"></a></div>
+                    <div class=""><a class="default-link" href="/login" style="color:black">Вход</a></div>
                 </div>
+                <div class="favorite">
+                    <div class=""><a class="default-link" href=""><img class="icon" src="{%static 'img/heart-svgrepo-com.svg'%}"></a></div>
+                    <div class=""><a class="default-link" href="" style="color:black">Избранное</a></div>
+                </div>
+                <div class="blank"></div>
             </div>
         </header>
     </div>
